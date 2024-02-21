@@ -1,50 +1,62 @@
-
-.container{
+.container {
     /* this part will stack the two divs on 
     top of each other */
-    
+    display: flex;
+    flex-direction: column;
 
     /* this part will center the divs */
     /* and change the background color */
-   
+    background-color: #766fb6;
+    color: white;
+    padding: 10px;
+    text-align: center;
     /* this will change the text color */
     /* this gives space around your elements */
     /* this will center the text */
 }
 
 /* this part will style the container div called images */
-.images{
+.images {
     /* this part will center the provide space for the images*/
-   
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
     /* this will provide space around the images/ */
-    
+
 }
 
 /* this part will style the images */
-i{
+i {
     /* this will create a border around the icon */
-    
+border: 1px solid white;
+padding: 8px;
+border-radius: 50%;
 
     /* this will provide space around the icon */
-    
-    
+
+
     /* this will create a circle around the icon */
-    
+
 }
 
-.gallery{
+.gallery {
     /* this will provide space around the images */
-    
+    display: flex;
+    justify-content: space-around;
+    flex: wrap;
+
 
     /* this will wrap the images on the next line */
-    
-    
+
+
 
 }
 
-.galleryItem{
+.galleryItem {
     /* make sure the images are the same size; */
-    
+
     /* make sure there is space between the images you can use margin or flex */
     /* give the images a border color */
 }
@@ -52,10 +64,16 @@ i{
 
 
 
-.midSection{
+.midSection {
     /* this will center the text */
-    
-
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
     /* lets give it some margin to give it some room to breath */
-   
+
+}
+
+img{
+    width: 250px; 
+    height: 350px;
 }
